@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load dataset
-data = pd.read_csv('medicare.csv')
+data = pd.read_csv('Medicare.csv')
 
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
