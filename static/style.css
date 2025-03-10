@@ -104,7 +104,6 @@ ul li:hover {
     background: #C0392B;
     transform: scale(1.05);
 }
-
 @media screen and (max-width: 768px) {
     .container {
         max-width: 90%;
@@ -115,9 +114,11 @@ ul li:hover {
     }
     input {
         width: 100%;
+        padding: 10px;
+        font-size: 14px;
     }
     button, .go-back {
-        width: auto;
+        width: 100%;
         padding: 12px 20px;
     }
 }
