@@ -43,6 +43,7 @@ input {
     width: 80%;
     font-size: 16px;
     outline: none;
+    max-width: 400px;
 }
 
 button {
@@ -54,6 +55,8 @@ button {
     border: none;
     font-size: 16px;
     transition: 0.3s ease;
+    max-width: 200px;
+    width: 100%;
 }
 
 button:hover {
@@ -86,7 +89,7 @@ ul li:hover {
 
 .go-back {
     display: block;
-    width: 200px;
+    max-width: 200px;
     padding: 12px 20px;
     background: #E74C3C;
     color: white;
@@ -98,12 +101,15 @@ ul li:hover {
     transition: 0.3s ease;
     text-align: center;
     margin: 20px auto;
+    width: 100%;
 }
 
 .go-back:hover {
     background: #C0392B;
     transform: scale(1.05);
 }
+
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .container {
         max-width: 90%;
@@ -113,12 +119,11 @@ ul li:hover {
         font-size: 1.5em;
     }
     input {
-        width: 100%;
-        padding: 10px;
-        font-size: 14px;
+        width: 90%;
+        max-width: 100%;
     }
     button, .go-back {
-        width: 100%;
-        padding: 12px 20px;
+        width: 90%;
+        max-width: 100%;
     }
 }
